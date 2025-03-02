@@ -90,7 +90,7 @@ const ProductPage = () => {
       
       <div className="bg-gray-50 h-full md:px-20 px-10 mt-10 pb-10">
         {/* Bagian Atas: Search, Categories, Sort By */}
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4 pt-10">
           {/* Search Bar */}
           <input
             type="text"
