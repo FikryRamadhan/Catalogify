@@ -16,21 +16,21 @@ const BestSellers = () => {
           name: 'CCTV Huawei',
           description: 'Kamera CCTV Huawei beresolusi 1080p dengan fitur night vision dan konektivitas Wi-Fi. Ideal untuk keamanan rumah atau kantor.',
           price: '$249.99',
-          image: '/products/4.png',
+          image: '/products/8.png',
         },
         {
           id: 3,
           name: 'iPhone 13 Pro',
           description: 'Apple iPhone 13 Pro dengan chip A15 Bionic, sistem kamera canggih, dan desain premium. Pilihan tepat bagi penggemar Apple.',
           price: '$999.99',
-          image: '/products/7.png',
+          image: '/products/4.png',
         },
         {
           id: 4,
           name: 'Gamepad Rexus',
           description: 'Gamepad Rexus dengan desain ergonomis dan tombol responsif. Cocok untuk bermain game di PC maupun konsol.',
           price: '$59.99',
-          image: '/products/8.png',
+          image: '/products/7.png',
         },
       ];
       
