@@ -44,7 +44,7 @@ export default function Navbar() {
               <NavLink to={""} className="text-gray-100 hover:text-gray-100 px-3 py-2 font-medium">
                 Home
               </NavLink>
-              <NavLink to={""} className="text-gray-100 hover:text-gray-100 px-3 py-2 font-medium">
+              <NavLink to={"app/products"} className="text-gray-100 hover:text-gray-100 px-3 py-2 font-medium">
                 Products
               </NavLink>
               <NavLink to={""} className="text-gray-100 hover:text-gray-100 px-3 py-2 font-medium">
@@ -159,13 +159,13 @@ export default function Navbar() {
                 </button>
               </div>
               <div className="flex flex-col space-y-4">
-                <NavLink to={""} className="text-gray-100 hover:text-gray-100 py-2 font-medium border-b border-gray-200">
+                <NavLink to={""} className="text-gray-900 hover:text-gray-900 py-2 font-medium border-b border-gray-900">
                   Home
                 </NavLink>
-                <NavLink to={""} className="text-gray-100 hover:text-gray-100 py-2 font-medium border-b border-gray-200">
+                <NavLink to={"app/products"} className="text-gray-900 hover:text-gray-900 py-2 font-medium border-b border-gray-900">
                   Products
                 </NavLink>
-                <NavLink to={""} className="text-gray-100 hover:text-gray-100 py-2 font-medium border-b border-gray-200">
+                <NavLink to={""} className="text-gray-900 hover:text-gray-900 py-2 font-medium border-b border-gray-900">
                   About
                 </NavLink>
               

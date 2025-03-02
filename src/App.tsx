@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route,BrowserRouter as Router } from 'react-router-dom'
-import routes from './Utils/Routes'
+import Routers from './Utils/Routers'
 import Navbar from './Component/Navbar'
+import Footer from './Component/Footer'
 
 function App() {
 
@@ -10,10 +11,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-        {routes.map((route, index) => (
-          <Route key={index} path={route.path} element={route.element} />
+        {Routers.map((routers, index) => (
+          <Route key={index} path={routers.path} element={routers.element} />
         ))}
         </Routes>
+        <Footer />
       </Router> 
     </>
   )

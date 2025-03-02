@@ -1,12 +1,12 @@
 import { Navigate } from 'react-router-dom';
 import HomePage from '../Pages/HomePage';
 import AboutPage from '../Pages/AboutPage';
-import ProductPage from '../Pages/ProductPage';
 import ProductDetail from '../Pages/ProductDetail';
 import NotFoundPage from '../Pages/NotFoundPage';
+import ProductPage from '../Pages/ProductPage';
 
 
-const routes = [
+const Routers = [
   {
     path: '/',
     element: <Navigate to="/app" replace />,
@@ -33,4 +33,4 @@ const routes = [
   },
 ];
 
-export default routes;
+export default Routers;
