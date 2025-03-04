@@ -24,7 +24,7 @@ const Routers = [
     element: <ProductPage />,
   },
   {
-    path: 'app/products/:id',
+    path: 'app/products/:slug',
     element: <ProductDetail />,
   },
   {

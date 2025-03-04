@@ -7,6 +7,7 @@ import {
 import Products from '../Hooks/Products';
 import Carousel from '../Component/Carousel';
 import cards from '../Hooks/Card';
+import { Link, NavLink } from 'react-router-dom';
 
 const ProductPage = () => {
   const [products] = useState(Products);
@@ -141,7 +142,7 @@ const ProductPage = () => {
         {/* Grid Produk */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {currentProducts.map((product) => (
-            <div key={product.id} className="bg-white rounded-md shadow p-4 flex flex-col">
+            <NavLink key={product.id} to={`${product.slug}`} className="bg-white rounded-md shadow p-4 flex flex-col">
               {/* Gambar Produk */}
               <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center rounded">
                 <img
@@ -173,7 +174,7 @@ const ProductPage = () => {
                   <IconShoppingCart size={18} />
                 </button>
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
 

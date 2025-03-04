@@ -6,6 +6,7 @@ import {
   IconBrandGithub,
   IconUser,
 } from '@tabler/icons-react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,19 +27,19 @@ const Footer = () => {
           <h4 className="font-semibold text-lg mb-2">Quick Links</h4>
           <ul className="space-y-1">
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"/app"} className="hover:underline">
                  Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"app/products"} className="hover:underline">
                 Product
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"app/about"} className="hover:underline">
                 About Us
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -48,19 +49,19 @@ const Footer = () => {
           <h4 className="font-semibold text-lg mb-2">Customer Service</h4>
           <ul className="space-y-1">
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"/app"} className="hover:underline">
                 Shipping Info
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"/app"} className="hover:underline">
                 Returns
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <NavLink to={"/app"} className="hover:underline">
                 Order Status
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

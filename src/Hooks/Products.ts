@@ -1,7 +1,8 @@
-const Product =[
+const Product = [
   {
     id: 1,
     name: 'Lenovo Ideaped',
+    slug: 'lenovo-ideaped',
     description: 'Short description of the product goes here',
     price: '$99.99',
     rating: 4,
@@ -12,6 +13,7 @@ const Product =[
   {
     id: 2,
     name: 'Mouse Rexus',
+    slug: 'mouse-rexus',
     description: 'Short description of the product goes here',
     price: '$149.99',
     rating: 4.5,
@@ -22,6 +24,7 @@ const Product =[
   {
     id: 3,
     name: 'Advan workplus',
+    slug: 'advan-workplus',
     description: 'Short description of the product goes here',
     price: '$199.99',
     rating: 4,
@@ -32,6 +35,7 @@ const Product =[
   {
     id: 4,
     name: 'Web Company Profile',
+    slug: 'web-company-profile',
     description: 'Short description of the product goes here',
     price: '$299.99',
     rating: 5,
@@ -42,6 +46,7 @@ const Product =[
   {
     id: 5,
     name: 'Web Operational',
+    slug: 'web-operational',
     description: 'Short description of the product goes here',
     price: '$299.99',
     rating: 5,
@@ -52,6 +57,7 @@ const Product =[
   {
     id: 6,
     name: 'Web Katalog',
+    slug: 'web-katalog',
     description: 'Short description of the product goes here',
     price: '$50',
     rating: 5,
@@ -62,6 +68,7 @@ const Product =[
   {
     id: 7,
     name: 'Keyboard Fantech',
+    slug: 'keyboard-fantech',
     description: 'Short description of the product goes here',
     price: '$199.99',
     rating: 5,
@@ -72,6 +79,7 @@ const Product =[
   {
     id: 8,
     name: 'PC Gaming',
+    slug: 'pc-gaming',
     description: 'Short description of the product goes here',
     price: '$199.99',
     rating: 5,
@@ -82,6 +90,7 @@ const Product =[
   {
     id: 9,
     name: 'CCTV Huaei',
+    slug: 'cctv-huaei',
     description: 'Short description of the product goes here',
     price: '$199.99',
     rating: 5,
@@ -92,6 +101,7 @@ const Product =[
   {
     id: 10,
     name: 'Game Pad Rexus',
+    slug: 'game-pad-rexus',
     description: 'Short description of the product goes here',
     price: '$199.99',
     rating: 5,
@@ -99,6 +109,6 @@ const Product =[
     image: '/products/6.png',
     category: 'Gaming',
   },
-]
+];
 
-export default Product
+export default Product;
